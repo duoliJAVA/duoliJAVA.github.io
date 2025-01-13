@@ -50,7 +50,7 @@ export default defineUserConfig({
       ]
     }
   }
-  }),
+  ),
   lang: 'zh-CN',
   title: '多力',
   description: 'day day up',
