@@ -7,15 +7,15 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar:[
       {
-        text: '首页',
+        text: '首页11',
         link: '/',
       },{
-        text: '开始',
+        text: '开始22',
         link:'/guide/started.html',
       }
     ]
   }),
   lang: 'zh-CN',
-  title: '你好！',
-  description: '这是我的第一个 VuePress 站点',
+  title: '多力',
+  description: 'day day up',
 })
