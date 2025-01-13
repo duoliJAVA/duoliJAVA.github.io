@@ -7,42 +7,43 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar:[
       {
-        text: '首页11',
-        link: '/工具/vuepress搭建个人文档.html',
-      },{
-        text: '开始22',
-        link:'/guide/',
+        text: '概述',
+        link: '/'
+      
+      },
+      {
+        text: '工具',
         items:[
           {
-            text: '基础教程',
-            link: '/guide/'
+            text: 'vuepress',
+            link: '/工具/vuepress搭建个人文档.html'
           },
           {
-            text: '高级教程',
-            link: '/guide/started.html'
+            text: 'windows 服务器部署',
+            link: '/工具/windows服务器部署/ip做自签名证书流程.html'
+          }
+        ]
+      },{
+        text: 'java',
+        items:[
+          {
+            text: 'jvm',
+            link: '/guide/'
           }
         ]
       }
     ],
     sidebar: {
       '/guide/': [
-        {
-          title: '基础教程',
-          collapsable: false,
-          children: [
-            '/guide/',
-            '/guide/started.html',
-            '/guide/advanced'
-          ]
-        }
-      ],
+              '/guide/',
+              '/guide/started.md'
+          
+        ],
       '/工具/': [
         {
           title: '工具',
           collapsable: false,
           children: [
-            '/工具/',
-            '/工具/windows服务器部署/',
             '/工具/windows服务器部署/ip做自签名证书流程.html',
             '/工具/vuepress搭建个人文档.html'
           ]
