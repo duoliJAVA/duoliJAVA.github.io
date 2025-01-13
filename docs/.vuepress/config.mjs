@@ -13,7 +13,7 @@ export default defineUserConfig({
       },
       {
         text: '工具',
-        items:[
+        children:[
           {
             text: 'vuepress',
             link: '/工具/vuepress搭建个人文档.html'
@@ -25,14 +25,31 @@ export default defineUserConfig({
         ]
       },{
         text: 'java',
-        items:[
+        children:[
           {
             text: 'jvm',
             link: '/guide/'
           }
         ]
       }
-    ]
+    ],
+    sidebar: {
+      '/guide/': [
+              '/guide/',
+              '/guide/started.md'
+          
+        ],
+      '/工具/': [
+        {
+          title: '工具',
+          collapsable: false,
+          children: [
+            '/工具/windows服务器部署/ip做自签名证书流程.html',
+            '/工具/vuepress搭建个人文档.html'
+          ]
+        }
+      ]
+    }
   }
   ),
   lang: 'zh-CN',
