@@ -8,7 +8,7 @@ export default defineUserConfig({
     navbar:[
       {
         text: '首页11',
-        link: '/',
+        link: '/工具/',
       },{
         text: '开始22',
         link:'/guide/started.html',
