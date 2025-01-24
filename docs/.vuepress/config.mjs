@@ -42,7 +42,7 @@ export default defineUserConfig({
         },
         {
           text: 'jdk 安装',
-          link: '/工具/jdk安装'
+          link: '/工具/windows服务器部署/jdk安装'
         }
       ],
       '/工具/vuepress':[
