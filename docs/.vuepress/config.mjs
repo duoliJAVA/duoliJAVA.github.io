@@ -7,7 +7,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar:[
       {
-        text: '概述',
+        text: '主页',
         link: '/'
       
       },
@@ -33,7 +33,30 @@ export default defineUserConfig({
           }
         ]
       }
-    ]
+    ],
+    sidebar:{
+      '/工具/':[
+        {
+          text: 'windows 服务器部署',
+          children:[
+            {
+              text: 'ip做自签名证书流程',
+              link: '/工具/windows服务器部署/ip做自签名证书流程'
+            }
+          ]
+        },
+        {
+          text: 'vuepress',
+          link: '/工具/vuepress搭建个人文档'
+        }
+      ],
+      '/guide/':[
+        {
+          text: 'started',
+          link: '/guide/started'
+        }
+      ]
+    }
 }),
   lang: 'zh-CN',
   title: '多力',
