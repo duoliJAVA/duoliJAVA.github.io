@@ -15,6 +15,10 @@ export default defineUserConfig({
         text: '工具',
         children:[
           {
+            text: '工具',
+            link: '/工具/'
+          },
+          {
             text: 'windows 服务器部署',
             link: '/工具/windows服务器部署/ip做自签名证书流程'
           },
