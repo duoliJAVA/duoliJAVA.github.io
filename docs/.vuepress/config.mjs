@@ -15,13 +15,14 @@ export default defineUserConfig({
         text: '工具',
         children:[
           {
-            text: 'vuepress',
-            link: '/工具/vuepress搭建个人文档'
-          },
-          {
             text: 'windows 服务器部署',
             link: '/工具/windows服务器部署/ip做自签名证书流程'
+          },
+          {
+            text: 'vuepress',
+            link: '/工具/vuepress搭建个人文档'
           }
+          
         ]
       },{
         text: 'java',
