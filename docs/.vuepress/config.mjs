@@ -35,7 +35,7 @@ export default defineUserConfig({
       }
     ],
     sidebar:{
-      '/工具/windows 服务器部署/':[
+      '/工具/windows 服务器部署':[
         {
           text: 'ip做自签名证书流程',
           link: '/工具/windows服务器部署/ip做自签名证书流程'
