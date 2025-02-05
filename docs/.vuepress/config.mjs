@@ -15,7 +15,7 @@ export default defineUserConfig({
         text: '工具',
         children:[
           {
-            text: 'windows 服务器部署',
+            text: 'windows服务器部署',
             link: '/工具/windows服务器部署/ip做自签名证书流程'
           },
           {
@@ -35,19 +35,23 @@ export default defineUserConfig({
       }
     ],
     sidebar:{
-      '/工具/windows 服务器部署':[
+      '/工具/windows服务器部署':[
         {
           text: 'ip做自签名证书流程',
           link: '/工具/windows服务器部署/ip做自签名证书流程'
         },
         {
-          text: 'jdk 安装',
+          text: 'jdk安装',
           link: '/工具/windows服务器部署/jdk安装'
         }
       ],
       '/工具/vuepress':[
         {
           text: 'vuepress',
+          link: '/工具/vuepress搭建个人文档'
+        },
+         {
+          text: 'vuepress22',
           link: '/工具/vuepress搭建个人文档'
         }
       ]
